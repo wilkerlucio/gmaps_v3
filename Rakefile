@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "gmaps_v3"
     gem.summary = %Q{GMaps v3 enable simple integration with Google Maps API v3}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{API to simple do requests on Google Maps API V3}
     gem.email = "wilkerlucio@gmail.com"
     gem.homepage = "http://github.com/wilkerlucio/gmaps_v3"
     gem.authors = ["Wilker Lucio"]
