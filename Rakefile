@@ -5,11 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "gmaps_v3"
-    gem.summary = %Q{TODO: one-line summary of your gem}
+    gem.summary = %Q{GMaps v3 enable simple integration with Google Maps API v3}
     gem.description = %Q{TODO: longer description of your gem}
     gem.email = "wilkerlucio@gmail.com"
     gem.homepage = "http://github.com/wilkerlucio/gmaps_v3"
     gem.authors = ["Wilker Lucio"]
+    gem.add_dependency 'simplehttp', '>= 0.1.3'
+    gem.add_dependency 'json', '>= 1.2.4'
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
