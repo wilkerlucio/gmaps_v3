@@ -22,7 +22,10 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION",
+     "gmaps_v3.gemspec",
      "lib/gmaps_v3.rb",
+     "rails/init.rb",
      "spec/gmaps_v3_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
