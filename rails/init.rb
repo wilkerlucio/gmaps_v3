@@ -1,0 +1,1 @@
+require 'gmaps_v3'
